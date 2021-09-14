@@ -1,22 +1,18 @@
-//Write a program that reads from the console the radius "r" of a circle and prints its perimeter and area.
-
+﻿
 using System;
 
-namespace radius
+namespace exos
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Enter r the radius of the cricle");
-            int r = int.Parse(Console.ReadLine());
-
-            double per_cir = (double) (2 * Math.PI * r);
-            double area = (double) (Math.PI*r*r);
-            Console.WriteLine("The perimeter and area of the cirlce are " + per_cir +" and " + area);
-
-
-
+            int hexnum = 2013;
+            Console.WriteLine("|{0,-10}|", hexnum);
+            double fracpo = 0.256;
+            Console.WriteLine("|{0,-10:f2}|", fracpo);
+            double fracne = -0.589;
+            Console.WriteLine("|{0,-10}|", fracne);
         }
     }
 }
