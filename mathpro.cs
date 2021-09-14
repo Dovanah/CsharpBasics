@@ -32,3 +32,22 @@ namespace math
     }
 }
 
+
+// Solution n2 without loops 
+namespace math
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int n;
+            int m;
+
+            n = Convert.ToInt32(Console.ReadLine());
+            m = Convert.ToInt32(Console.ReadLine());
+
+            int x = ((m - n) / 5) + 1;
+
+            Console.WriteLine(x);
+
